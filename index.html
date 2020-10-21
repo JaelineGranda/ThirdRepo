@@ -8,22 +8,26 @@
         <div id="todo-container" class="container">
             <button id="task-add">add</button>
         </div>
+        <div class="modal">
+            <div id="detailView" class="modal-content">
+            </div>
+          </div>
         <div>
-            <form class="form" id="addform" method="GET">
+            <form class="form" id="addform">
                 <p>Add New Task</p>
                 <fieldset>
-                    <input type="text" id="newtitle" placeholder="Title" required>
+                    <input type="text" id="newtitle" placeholder="Title">
                 </fieldset>
                 <fieldset>
-                    <input type="text" id="newdescription" placeholder="Description" required>
+                    <input type="text" id="newdescription" placeholder="Description">
                 </fieldset>
                 <fieldset>
-                    <input type="date" id="newduedate" placeholder="Due Date" required>
+                    <input type="text" id="newduedate" placeholder="Due Date">
                 </fieldset>
                 <fieldset>
-                    <input type="time" id="newtime" placeholder="Time" required>
+                    <input type="text" id="newtime" placeholder="Time">
                 </fieldset>
-                <button class="formbutton" type="submit">Add to list</button>
+                <button id="submit" type="button">Add to list</button>
             </form>
         </div>
 
