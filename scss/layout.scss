@@ -1,0 +1,19 @@
+.container {
+    width: 800px;
+    min-height: 500px;
+    margin: auto;
+    border: 1px solid lightcoral;
+    background-color: lightgray;
+    color: black;
+    margin-top: 25px;
+}
+
+th, td {
+    min-width: 100px;
+    min-height: 30px;
+    cursor: pointer;
+}
+
+.form {
+    display: none;
+}
