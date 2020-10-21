@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Todo Application</title>
+        <link href="dist/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="todo-container" class="container">
+            <button id="task-add">add</button>
+        </div>
+        <div>
+            <form class="form" id="addform" method="GET">
+                <p>Add New Task</p>
+                <fieldset>
+                    <input type="text" id="newtitle" placeholder="Title" required>
+                </fieldset>
+                <fieldset>
+                    <input type="text" id="newdescription" placeholder="Description" required>
+                </fieldset>
+                <fieldset>
+                    <input type="date" id="newduedate" placeholder="Due Date" required>
+                </fieldset>
+                <fieldset>
+                    <input type="time" id="newtime" placeholder="Time" required>
+                </fieldset>
+                <button class="formbutton" type="submit">Add to list</button>
+            </form>
+        </div>
+
+        <script src="js/todo-list.js"></script>
+    </body>
+</html>
