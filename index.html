@@ -5,15 +5,16 @@
         <link href="dist/main.css" rel="stylesheet">
     </head>
     <body>
-        <div id="todo-container" class="container">
-            <button id="task-add">add</button>
+        <div id="todo-container" class="container"> <!--table will be created in this element-->
+            <h1>Todo List</h1>
         </div>
-        <div class="modal">
+        <button id="task-add">add</button>
+        <div class="modal"> <!--modal will be created in this element-->
             <div id="detailView" class="modal-content">
             </div>
           </div>
         <div>
-            <form class="form" id="addform">
+            <form class="form" id="addform"> <!--create form for user input-->
                 <p>Add New Task</p>
                 <fieldset>
                     <input type="text" id="newtitle" placeholder="Title">
